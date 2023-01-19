@@ -64,9 +64,9 @@ class _BaseState extends State<Base> {
                   ),
                   body: TabBarView(
                     children: [
-                      newsListWidget(widget.key, _allNews),
-                      newsListWidget(widget.key, _topNews),
-                      newsListWidget(widget.key, _articleNews),
+                      NewsListWidget(key:widget.key,news: _allNews),
+                      NewsListWidget(key:widget.key,news: _topNews),
+                      NewsListWidget(key:widget.key,news: _articleNews),
                     ],
                   ),
                 ),

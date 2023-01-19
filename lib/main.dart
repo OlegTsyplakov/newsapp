@@ -5,3 +5,4 @@ void main() {
   runApp(const App());
 }
 
+//https://github.com/OlegTsyplakov/newsapp

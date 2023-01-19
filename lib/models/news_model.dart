@@ -11,7 +11,7 @@ class NewsItem {
    NewsItem.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         img = json['img'],
-        date = json['date'].substring(0, 10),
+        date = json['date'],
         title= json['title'],
         subtitle= json['subtitle'],
         important= json['important']
